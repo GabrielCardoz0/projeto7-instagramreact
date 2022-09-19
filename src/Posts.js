@@ -13,7 +13,6 @@ export default function Posts() {
     const heartEmpty = <ion-icon onClick={curtida} name="heart-outline"></ion-icon>
     const heartSharp = <ion-icon class="red" onClick={curtida} name="heart-sharp"></ion-icon>
 
-    const [bookmarkType, setBookmarkType] = React.useState('bookmark-outline')
 
     const [heartType, setHeartType] = React.useState(heartEmpty)
 
@@ -31,6 +30,8 @@ export default function Posts() {
 
 
     function post(p) {
+
+        
         return (
             <div class="post">
                 <div class="topo">
