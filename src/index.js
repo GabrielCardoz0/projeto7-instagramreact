@@ -1,17 +1,5 @@
 import ReactDOM from "react-dom";
-import Corpo from "./Corpo";
-import FundoMobile from "./FundoMobile";
-import NavBar from "./NavBar";
+import App from "./app";
 
 
-function App() {
-    return (
-        <div>
-            <NavBar/>
-            <Corpo/>
-            <FundoMobile/>
-        </div>
-    )
-}
-
-ReactDOM.render(<App />, document.querySelector(".root"));
+ReactDOM.render(<App/>, document.querySelector(".root"));
