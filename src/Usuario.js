@@ -9,15 +9,16 @@ export default function Usuario(props) {
     function mudarNome(){
         const novoNome = prompt("favor, insira o novo nome do perfil")
         
-        if(novoNome !=="" || novoNome !==null ){
+        if(novoNome !=="" || novoNome !== null ){
             setUserName(novoNome);
         }
+        console.log(novoNome)
     }
 
     function mudarImagem(){
         const novaImagem = prompt("favor, insira o novo link para a imagem do perfil")
         
-        if(novaImagem !=="" || novaImagem !==null ){
+        if(novaImagem !=="" || novaImagem !== null ){
             setImgUser(novaImagem);
         }
     }
